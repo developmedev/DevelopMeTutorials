@@ -28,6 +28,7 @@ namespace DevelopMeTutorials
             }
             else if (Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.Android)
             {
+                //AskForRelevantPermissionsAsync();
                 MainThread.BeginInvokeOnMainThread(async () =>
                 {
                     await AskForRelevantPermissionsAsync();
